@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw Lichess data (several GB per month — never commit)
+data/raw/*
+!data/raw/.gitkeep
+*.pgn
+*.pgn.zst
+
+# Model checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+
+# Experiment logs
+runs/
+wandb/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,7 @@
+torch
+chess          # python-chess
+zstandard      # decompress .pgn.zst
+numpy
+matplotlib
+tqdm
+jupyter
