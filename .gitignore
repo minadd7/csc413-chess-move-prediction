@@ -8,10 +8,16 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
+.pytest_cache/
 
 # Raw Lichess data (several GB per month — never commit)
 data/raw/*
 !data/raw/.gitkeep
+
+# Interim/processed data (regenerate with src/preprocess.py)
+data/interim/
+data/processed/*
+!data/processed/.gitkeep
 *.pgn
 *.pgn.zst
 
